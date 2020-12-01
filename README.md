@@ -17,7 +17,7 @@ Please refer to this [link](https://developer.ibm.com/tutorials/get-started-find
 
 ## Estimated time
 
-Completing this tutorial should take about 30 minutes.
+Completing this tutorial should take about 40 minutes.
 
 ## Steps to build the time series model
 
