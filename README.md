@@ -2,12 +2,12 @@
 
 Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values. Time series are widely used for non-stationary data, like economic, weather, stock price, and retail sales.
 
-This tutorial demonstrates a time-series on FP Predict +, Using a dataset that shows the how the prices differ over a period of time at a paricular retail store outlet.
+This tutorial demonstrates how to build a time-series model using FP Predict Plus with a dataset that shows the how the prices differ over a period of time at a paricular retail store outlet.
 
 ## Learning objectives
 
-* Users will learn how to operate with RHM FP Predict + Operator
-* Setup a Time-Series Model on FP Predict + 
+* Users will learn how to operate with Red Hat Marketplace FP Predict Plus Operator
+* Setup a Time-Series Model on FP Predict Plus 
 * Learn how to configure the Training and Forecast parameters
 * View and analyze the time-series results
 
@@ -23,7 +23,7 @@ Completing this tutorial should take about 30 minutes.
 
 ### Create a new Time-Series Job
 
-* Login to your FP Predict + Operator
+* Login to your FP Predict Plus Operator by launching it.
 
 ![](doc/src/images/login.png)
 
@@ -56,7 +56,7 @@ Completing this tutorial should take about 30 minutes.
   
   ![](doc/src/images/training_config.png)
 
-  * Upload the forecast file from the downloaded file `sales_test.csv`
+  * Upload the forecast file from the downloaded file `test.csv`
   * Set Timestamp variable as `date`
   * Set Timestamp Format as `dd/mm/yyyy`
   * Click on `Run`
@@ -108,4 +108,9 @@ For further reference, look at the datasets used in this tutorial.
 ## Summary
 
 In summary, this tutorial helps you to understand how to perform time-series analysis using the FP Predict + Operator hosted on Red Hat Market Place.
+
+## Related links
+
+* [Predict fraud using FP Predict Plus](https://developer.ibm.com/patterns/predict-fraudulent-transactions-findability-platform-predict-plus/)
+* [Predict sales using FP Predict Plus](https://developer.ibm.com/patterns/use-redhat-marketplace-operator-fp-predict-plus-to-predict-sales/)
 
