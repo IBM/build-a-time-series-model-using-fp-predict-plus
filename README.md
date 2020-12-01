@@ -1,3 +1,7 @@
+# How to build time series model using FP Predict Plus operator
+
+Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values. Time series are widely used for non-stationary data, like economic, weather, stock price, and retail sales.
+
 This tutorial demonstrates a time-series on FP Predict +, Using a dataset that shows the how the prices differ over a period of time at a paricular retail store outlet.
 
 ## Learning objectives
@@ -9,13 +13,11 @@ This tutorial demonstrates a time-series on FP Predict +, Using a dataset that s
 
 ## Prerequisites
 
-List pre-reqs here.
-
-* RHM FP Predict + operator
+Please refer to this [link](https://developer.ibm.com/tutorials/get-started-findability-platform-predict-plus-red-hat-marketplace/) for getting started with installation and setup of FP Predict plus operator.
 
 ## Estimated time
 
-Completing this tutorial should take about 20 minutes.
+Completing this tutorial should take about 30 minutes.
 
 ## Steps
 
@@ -88,12 +90,12 @@ Click on the `analytics` icon to analyze your results
 
   ![](doc/src/images/analyze_results_2.png)
   
-## Troubleshooting
+## Important pointers
 
-
-* Must have only 2 other columns apart from the date - Row sequence number and Target Variable
-* Ensure the time interval is correctly maintained through the training and forecast data. Eg: If you put the time interval     as Daily, your dataset MUST contain only one record for a particular day.
+* Must have only 2 other columns apart from the date variable which are Row sequence number and Target Variable.
+* Ensure the time interval is correctly maintained through the training and forecast data. Eg: If you put the time interval as Daily, your dataset MUST contain only one record for a particular day.
 * Additionally, if you set Daily as interval, your forecast data MUST have a forecast for everyday without a gap.
+
 * If you encounter the below error-
   
   ![](doc/src/images/Error.png)
@@ -105,5 +107,5 @@ For further reference, look at the datasets used in this tutorial.
 
 ## Summary
 
-In summary, this tutorial helps you to understand how to perform time-series analysis with Red Hat Market Place using the FP Predict + Operator.
+In summary, this tutorial helps you to understand how to perform time-series analysis using the FP Predict + Operator hosted on Red Hat Market Place.
 
