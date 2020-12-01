@@ -39,9 +39,9 @@ Completing this tutorial should take about 20 minutes.
 
 ### Configure the Time-Series Model
 
-* Download the dataset [train.csv](https://github.ibm.com/smrraj32/fppredict-plus-time-series/blob/master/dataset/train.csv)
+* Download the dataset [train.csv](https://github.com/IBM/build-a-time-series-model-using-fp-predict-plus/blob/main/datasets/train.csv)
 
-* Download the dataset [test.csv](https://github.ibm.com/smrraj32/fppredict-plus-time-series/blob/master/dataset/sales_test.csv)
+* Download the dataset [test.csv](https://github.com/IBM/build-a-time-series-model-using-fp-predict-plus/blob/main/datasets/test.csv)
 
 * Enter the details as follows-
 
